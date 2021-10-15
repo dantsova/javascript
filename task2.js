@@ -1,5 +1,5 @@
-if(process.argv[2] != undefined && Number(process.argv[2])) {
-    let x = Number(process.argv[2]);
+if(Number(process.argv[2])) {
+    const x = Number(process.argv[2]);
     let y;
     if (x > 0) {
         y = 2 * x;
